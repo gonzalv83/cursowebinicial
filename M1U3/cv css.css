@@ -1,0 +1,48 @@
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    top: 0px;
+    background-color: darkgray;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 65px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    border: 9px solid #060100;
+    position: absolute;
+    left: 400px;
+}
+
+#azul {
+    color: blue;
+    font-weight: bold;
+}
+
+.contenedor{
+    background-color: darkslategrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.caja {
+    background-color: black;
+    color: white;
+    border: 2px solid red;
+    padding: 1em;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
