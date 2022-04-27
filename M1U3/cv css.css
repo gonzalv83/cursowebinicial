@@ -1,8 +1,9 @@
 h1 {
-    text-transform: uppercase;
+    text-transform: uppercase; text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: fixed; z-index:3; left:15em; top:-25px; opacity:0.9;
+    position: fixed; z-index:3; top:-25px; opacity:0.9;
     background-color: darkgray;
+    width: 100%;
 }
 
 h2 {
