@@ -1,9 +1,7 @@
 h1 {
     text-transform: uppercase;
-    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: fixed;
-    top: 0px;
+    position: fixed; z-index:3; left:15em; top:-25px; opacity:0.9;
     background-color: darkgray;
 }
 
@@ -20,6 +18,7 @@ img {
     border: 9px solid #060100;
     position: absolute;
     left: 400px;
+
 }
 
 #azul {
@@ -27,7 +26,7 @@ img {
     font-weight: bold;
 }
 
-.contenedor{
+.contenedor {
     background-color: darkslategrey;
     display: flex;
     flex-direction: row;
@@ -44,5 +43,3 @@ img {
     margin-bottom: 20px;
     margin-top: 20px;
 }
-
-
